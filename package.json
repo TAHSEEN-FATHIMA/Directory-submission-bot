@@ -40,6 +40,5 @@ const puppeteer = require('puppeteer');
   } catch (err) {
     console.log(' Error occurred:', err.message);
   }
-
   // Keeps the browser open for manual CAPTCHA solving
 })();
