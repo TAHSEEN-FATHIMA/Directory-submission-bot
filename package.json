@@ -4,6 +4,7 @@ const puppeteer = require('puppeteer');
   const browser = await puppeteer.launch({ headless: false, defaultViewport: null });
 
   // -------- Directory Site Login --------
+
   const page = await browser.newPage();
   console.log(' Logging in to directory site...');
   await page.goto('https://www.example-directory.com/login', {
